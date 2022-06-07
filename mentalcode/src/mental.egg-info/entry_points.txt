@@ -1,0 +1,2 @@
+[console_scripts]
+mental = deathdaily:main
