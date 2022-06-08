@@ -1,2 +1,0 @@
-[console_scripts]
-mental_health_and_prevalence = mental_health_and_prevalence:main

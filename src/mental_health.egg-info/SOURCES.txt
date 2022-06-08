@@ -1,8 +1,0 @@
-README.md
-setup.py
-src/mental_health.py
-src/mental_health.egg-info/PKG-INFO
-src/mental_health.egg-info/SOURCES.txt
-src/mental_health.egg-info/dependency_links.txt
-src/mental_health.egg-info/entry_points.txt
-src/mental_health.egg-info/top_level.txt
