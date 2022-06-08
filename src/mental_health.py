@@ -1,5 +1,14 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import git
+
+url = 'https://github.com/RikoWatanabe/MentalHelse.git'
+
+to_path = 'ADS'
+
+git.Repo.clone_from(
+    url,
+    to_path)
 
 def main():
     data = pd.read_csv('prevalence-by-mental-and-substance-use-disorder.csv')
