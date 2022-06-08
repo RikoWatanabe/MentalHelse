@@ -1,3 +1,19 @@
+Metadata-Version: 2.1
+Name: mental-health-and-prevalence
+Version: 0.0.1
+Summary: Trends in the incidence of psychosis worldwide
+Home-page: https://github.com/RikoWatanabe/MentalHelse.git
+Author: riko watanabe
+Author-email: s2022039@stu.musashino-u.ac.jp
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/RikoWatanabe/MentalHelse.git
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
 # COVID-19 daily death prediction
 
 deathdaily is a Python program using new_deaths.csv for predicting daily deaths due to COVID-19 in the next seven days. The prediction is based on the Xthe degree polynomial curve-fitting.
@@ -47,3 +63,5 @@ $ deathdaily Israel 200 9
 $ deathdaily 'United Kingdom' 100 11
 
 <img src="https://github.com/ytakefuji/covid-19_daily_death_prediction/raw/main/United Kingdom.png" width=320 height=240 >
+
+
