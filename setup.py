@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="mental_health",
+    name="mental_health_and_prevalence",
     version="0.0.1",
     author="riko watanabe",
     author_email="s2022039@stu.musashino-u.ac.jp",
@@ -21,12 +21,12 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     package_dir={"": "src"},
-    py_modules=['mental_health'],
+    py_modules=['mental_health_and_prevalence'],
     packages=setuptools.find_packages(where="src"),
     python_requires=">=3.7",
     entry_points = {
         'console_scripts': [
-            'mental_health = mental_health:main'
+            'mental_health_and_prevalence = mental_health_and_prevalence:main'
         ]
     },
 )
