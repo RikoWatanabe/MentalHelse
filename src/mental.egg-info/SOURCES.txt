@@ -1,9 +1,0 @@
-README.md
-setup.cfg
-setup.py
-src/mental.py
-src/mental.egg-info/PKG-INFO
-src/mental.egg-info/SOURCES.txt
-src/mental.egg-info/dependency_links.txt
-src/mental.egg-info/entry_points.txt
-src/mental.egg-info/top_level.txt

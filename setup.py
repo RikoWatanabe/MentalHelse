@@ -4,16 +4,16 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="mental",
-    version="0.1.0",
+    name="mental_health",
+    version="0.0.1",
     author="riko watanabe",
     author_email="s2022039@stu.musashino-u.ac.jp",
     description="Trends in the incidence of psychosis worldwide",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="",
+    url="https://github.com/RikoWatanabe/MentalHelse.git",
     project_urls={
-        "Bug Tracker": "",
+        "Bug Tracker": "https://github.com/RikoWatanabe/MentalHelse.git",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -21,12 +21,12 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     package_dir={"": "src"},
-    py_modules=['mental'],
+    py_modules=['mental_health'],
     packages=setuptools.find_packages(where="src"),
     python_requires=">=3.7",
     entry_points = {
         'console_scripts': [
-            'mental = deathdaily:main'
+            'mental_health = mental_health:main'
         ]
     },
 )

@@ -1,12 +1,12 @@
 Metadata-Version: 2.1
-Name: mental
-Version: 0.1.0
+Name: mental-health
+Version: 0.0.1
 Summary: Trends in the incidence of psychosis worldwide
-Home-page: 
+Home-page: https://github.com/RikoWatanabe/MentalHelse.git
 Author: riko watanabe
 Author-email: s2022039@stu.musashino-u.ac.jp
 License: UNKNOWN
-Project-URL: Bug Tracker, 
+Project-URL: Bug Tracker, https://github.com/RikoWatanabe/MentalHelse.git
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
